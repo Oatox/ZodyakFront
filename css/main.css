@@ -8,22 +8,23 @@ a{
 }
 
 a:hover{
-	transition: 0.2s;
+	transition: 1s;
 	color: white;
 	text-decoration: none;
 }
 
 ul{
 	list-style: none;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 li a{
 	vertical-align: middle;
 }
 
-.section-1{
+.section{
 	background-color: #10075c;
-	height: 20%;
 }
 
 .navbar li a{
@@ -35,9 +36,62 @@ li a{
 }
 
 #nav-logo{
-	width: 30%;
+	width: 85px;
 }
 
+.container{
+	/*width: 50%;*/
+	padding: auto;
+	padding-top: 9rem;
+	padding-bottom: 10rem;
+}
 
+.container h1 {
+	text-align: center;
+	color: white;
+}
+
+.txt h2 {
+	color: white;
+	/*padding-left: 30px;*/
+	padding-top: 20px;
+}
+
+.txt h4 {
+	color: #969899;
+	/*padding-left: 30px;*/
+}
+
+.container button{
+	width: 30%;
+	height: 50px;
+	margin: auto;
+	margin-top: 25px;
+	border: none;
+	border-radius: 4px;
+	background-color: #00FBFF;
+	transition: 1s;
+}
+
+.container button:hover{
+	background-color: #02d0d4;
+}
+
+.container button:focus{
+	outline: none;
+}
+
+.bg-2{
+	background-color: #08023b;
+	box-shadow: 0px -29px 41px -8px rgba(0,0,0,0.75) !important;
+}
+
+.bg-3{
+	color: white;
+}
+
+.container img{
+	border-radius: 5px;
+}
 
 
