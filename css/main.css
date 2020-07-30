@@ -107,4 +107,8 @@ li a{
 	padding-bottom: 70px;
 }
 
-
+@media (max-width: 576px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
