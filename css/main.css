@@ -61,11 +61,12 @@ li a{
 	color: white;
 	/*padding-left: 30px;*/
 	padding-top: 20px;
+	font-size: 30px;
 }
 
 .txt h4 {
 	color: #969899;
-	/*padding-left: 30px;*/
+	font-size: 20px;
 }
 
 .txt h3{
