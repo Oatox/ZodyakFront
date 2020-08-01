@@ -1,11 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body, html{
 	height: 100%;
+	overflow-x: hidden;
 }
 
 a{
@@ -19,14 +20,9 @@ a:hover{
 	text-decoration: none;
 }
 
-ul{
-	list-style: none;
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
-li a{
-	vertical-align: middle;
+.nav-link {
+	color: #fff !important;
+	font-weight: 400 !important;
 }
 
 .section{
@@ -47,8 +43,7 @@ li a{
 
 .container{
 	/*width: 50%;*/
-	padding: auto;
-	padding-top: 13rem;
+	padding-top: 8rem;
 	padding-bottom: 10rem;
 }
 
@@ -87,6 +82,7 @@ li a{
 
 .container button:hover{
 	background-color: #02d0d4;
+	transform: scale(1.05);
 }
 
 .container button:focus{
@@ -100,7 +96,12 @@ li a{
 
 .container img{
 	border-radius: 5px;
-	box-shadow: 0px 0px 9px 1px rgba(41,41,41,1);
+	box-shadow: 0px 0px 9px 1px rgb(41, 41, 41);
+	transition: 1s;
+}
+
+.container img:hover {
+	transform: scale(1.05);
 }
 
 .footer{
@@ -112,4 +113,10 @@ li a{
   .container {
     flex-wrap: wrap;
   }
+}
+
+@media screen and (max-width: 1200px) {
+	.container img {
+		display: none;
+	}
 }

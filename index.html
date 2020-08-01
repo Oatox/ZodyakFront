@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="framework/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
 
     <link rel="icon" type="image/gif" href="assets/logo.png" />
     <link rel="stylesheet" href="css/main.css">
@@ -18,42 +18,55 @@
     <div class="section sec1">
 
     <!-- Navbar -->
-      <div class="navbar">
-        <ul class="d-flex flew-row">
-          <li class="d-flex align-items-center"><img src="assets/logo.png" id="nav-logo"></li>
-          <li class="d-flex align-items-center pl-5"><a href="#features">Fonctionnalité</a></li>
-          <li class="d-flex align-items-center pl-5"><a href="https://discord.gg/AbDJBhy" target="_blank">Serveur support</a></li>
-          <li class="d-flex align-items-center pl-5"><a href="mailto:support@zodyak.xyz">Nous contacter</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/logo.png" alt="logo" id="nav-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Fonctionnalité</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://discord.gg/AbDJBhy">Serveur support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:support@zodyak.xyz">Nous contacter</a>
+          </li>
         </ul>
       </div>
+    </nav>
       <div class="d-flex flex-column justify-content-center container">
           <h1>Zodyak, un bot fiable, utile etc ...</h1>
-          <button onclick="window.location.href = 'https://discord.com/oauth2/authorize?client_id=662339842046296065&scope=bot&permissions=939519734';">Commencer</button>
+          <a class="btn-animate" href="https://discord.com/oauth2/authorize?client_id=662339842046296065&scope=bot&permissions=939519734"></a><button>Commencer</button>
       </div>
 
     </div>
     <div class="section bg-2" id="features">
 
-      <div class="d-flex justify-content-around container">
-          <img src="assets/img1.png">
-        <div class="txt pl-5">
+      <div class="d-flex justify-content-around container flex-row-reverse">
+        <div class="txt">
           <h2>Des commandes utiles, du jamais vu !</h2>
-          <h4>Ca serai dommage que le bot ne serve qu'à modérer, on a donc inclut des commandes style funny, mais pas que ! <br>On travaille actuellement sur des commandes utiles permettant d'avoir plus d'infos sur toi ou le serveur</h4>
+          <h4>Ce serai dommage que le bot ne serve qu'à modérer, ont a donc inclut des commandes style funny, mais pas que ! <br>Nous travaillons actuellement sur des commandes utiles permettant d'avoir plus d'informations sur le serveur et ses utilisateurs</h4>
         </div>
+        <img class="img-fluid mx-5" src="assets/img1.png">
       </div>
     <div class="d-flex justify-content-around container">
-        <div class="txt pr-5">
+        <div class="txt">
           <h2>Un captcha inédit, très utile pour les gros serveurs !</h2>
-          <h4>Nous travaillons sur un système de sécurité ultrasophistiqué qui te permettra de gérer ton serveur discord facilement ! <br>Tu n'auras plus à t'inquiéter des bots et des spams !</h4>
+          <h4>Nous travaillons sur un système de sécurité qui te permettra de gérer ton serveur discord facilement ! <br>Tu n'auras plus à t'inquiéter des bots et des spams !</h4>
         </div>
-      <img src="assets/img1.png">
+      <img class="img-fluid mx-5" src="assets/img1.png">
       </div>
-    <div class="d-flex justify-content-around container">
-          <img src="assets/img1.png">
-        <div class="txt pl-5">
+    <div class="d-flex justify-content-around container flex-row-reverse">
+        <div class="txt">
           <h2>Un système d'auto modération, ne dépensez pas d'énergie pour les nuisibles !</h2>
-          <h4>Tu ne trouves pas que les gens qui insultent à tout va sont extrêmement énervants ?Et bien c'est fini, configure les mots-clés interdits. <br>Le bot les reconnaitra et supprimera le message de l'utilisateur !</h4>
+          <h4>Tu ne trouves pas que les gens qui insultent à tout va sont extrêmement énervants ? Et bien c'est fini, configure les mots-clés interdits. <br>Le bot les reconnaitra et supprimera le message de l'utilisateur !</h4>
         </div>
+        <img class="img-fluid mx-5" src="assets/img1.png">
       </div>
 </div>
 
