@@ -26,7 +26,7 @@ a:hover{
 }
 
 .section{
-	background-color: #10075c;
+	background-color: #2C2F33;
 }
 
 .sec1{
@@ -43,7 +43,7 @@ a:hover{
 
 .container{
 	/*width: 50%;*/
-	padding-top: 8rem;
+	padding-top: 10rem;
 	padding-bottom: 10rem;
 }
 
@@ -76,12 +76,12 @@ a:hover{
 	margin-top: 25px;
 	border: none;
 	border-radius: 4px;
-	background-color: #00FBFF;
+	background-color: #99AAB5;
 	transition: 1s;
 }
 
 .container button:hover{
-	background-color: #02d0d4;
+	background-color: #7289DA;
 	transform: scale(1.05);
 }
 
@@ -90,7 +90,7 @@ a:hover{
 }
 
 .bg-2{
-	background-color: #08023b;
+	background-color: #2C2F33;
 	/*box-shadow: 0px -29px 41px -8px rgba(0,0,0,0.75) !important;*/
 }
 
@@ -107,7 +107,11 @@ a:hover{
 .footer{
 	padding-top: 20px;
 	padding-bottom: 70px;
+	background-color: #2D2D2D
 }
+
+
+
 
 @media (max-width: 576px) {
   .container {
